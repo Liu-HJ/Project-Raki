@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 60vh;
+	background: linear-gradient(0deg, #0b74cb 0%, #0b74cb 50%, #fff 50%, #fff 100%);
+}
+.container{
+	max-width: 1000px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	transform-style: preserve-3d;
+}
+.container .card{
+	position: relative;
+	width: 150px;
+	height: 220px;
+	background: #fff;
+	margin: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	transition: 0.5s;
+	overflow: hidden;
+	transform-style: preserve-3d;
+}
+.container:hover .card{
+	transform: perspective(500px) rotateY(30deg);
+}
+.container .card:hover{
+	transform: perspective(500px) rotateY(0deg);
+}
+.container .card:hover ~ .card{
+	transform: perspective(500px) rotateY(-30deg);
+}
+.container .card h2{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 3em;
+	background: #2196f3;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	transition: box-shadow 0.5s;
+}
+.container .card:hover h2{
+	background: #fff;
+	color: #2196f3;
+	box-shadow: 0 0 0 150px #2196f3;
+	
+	
+}
+/* .description {
+	 margin-top: 50px;
+	 text-align: center;
+	 color: #999;
+	 transition: opacity 0.3s ease;
+}
+ .description a {
+	 color: #4a9df6;
+	 text-decoration: none;
+}
+ .btn.is-open ~ .description {
+	 opacity: 0;
+}
+ .btn {
+	 display: block;
+	 position: relative;
+	 width: 200px;
+	 height: 80px;
+	 transition: width 0.8s cubic-bezier(0.23, 1, 0.32, 1), height 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	 transform-style: preserve-3d;
+	 transform-origin: 50% 50%;
+	 text-align: center;
+}
+ .btn-front {
+	 position: absolute;
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 line-height: 80px;
+	 background-color: #f44336;
+	 color: #fff;
+	 cursor: pointer;
+	 backface-visibility: hidden;
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	 transition: background 0.15s ease, line-height 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+ .btn-front:hover {
+	 background-color: #f77066;
+}
+ .btn.is-open .btn-front {
+	 pointer-events: none;
+	 line-height: 160px;
+}
+ .btn-back {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 background-color: #eee;
+	 color: #222;
+	 transform: translateZ(-2px) rotateX(180deg);
+	 overflow: hidden;
+	 transition: box-shadow 0.8s ease;
+}
+ .btn-back p {
+	 margin-top: 27px;
+	 margin-bottom: 25px;
+}
+ .btn-back button {
+	 padding: 12px 20px;
+	 width: 30%;
+	 margin: 0 5px;
+	 background-color: transparent;
+	 border: 0;
+	 border-radius: 2px;
+	 font-size: 1em;
+	 cursor: pointer;
+	 -webkit-appearance: none;
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	 transition: background 0.15s ease;
+}
+ .btn-back button:focus {
+	 outline: 0;
+}
+ .btn-back button.yes {
+	 background-color: #2196f3;
+	 color: #fff;
+}
+ .btn-back button.yes:hover {
+	 background-color: #51adf6;
+}
+ .btn-back button.no {
+	 color: #2196f3;
+}
+ .btn-back button.no:hover {
+	 background-color: #ddd;
+}
+ .btn.is-open .btn-back {
+	 box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+ .btn[data-direction="left"] .btn-back, .btn[data-direction="right"] .btn-back {
+	 transform: translateZ(-2px) rotateY(180deg);
+}
+ .btn.is-open {
+	 width: 400px;
+	 height: 160px;
+}
+ .btn[data-direction="top"].is-open {
+	 transform: rotateX(180deg);
+}
+ .btn[data-direction="right"].is-open {
+	 transform: rotateY(180deg);
+}
+ .btn[data-direction="bottom"].is-open {
+	 transform: rotateX(-180deg);
+}
+ .btn[data-direction="left"].is-open {
+	 transform: rotateY(-180deg);
+}*/
+
+#head{
+    position:fixed; 
+	top:50px;
+	color:#2196f3;
+	font-size:32px;
+	text-align:center;
+}
+#head a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#head a:link {color: #2196f3;}/* 未访问的链接 */
+#head a:visited {color: #2196f3}/* 已访问的链接 */
+#head a:hover {color: #2196f3} /* 鼠标移动到链接上 */
+#head a:active {color: #2196f3} /* 选定的链接 */
+
+#page-bottom{
+    margin: 0;
+    padding: 40 100 20 100;
+    color:#FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed; bottom: 0;
+    text-align:center;
+}
+
+#page-bottom a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#page-bottom a:link {color: #fff;}/* 未访问的链接 */
+#page-bottom a:visited {color: #fff}/* 已访问的链接 */
+#page-bottom a:hover {color: #D3D3D3} /* 鼠标移动到链接上 */
+#page-bottom a:active {color: #D3D3D3} /* 选定的链接 */

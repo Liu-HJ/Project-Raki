@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(0deg, #0b74cb 0%, #0b74cb 50%, #fff 50%, #fff 100%);
+	/*background: linear-gradient(#0f4675, #0f4675 50%, #fff 50%, #fff 100%);*/
+}
+.container{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container .box{
+	position: relative;
+	width: 290px;
+	background: #fff;
+	padding: 100px 40px 60px;
+	box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
+.container .box:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ff226d;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: transform 0.5s;
+}
+.container .box:hover:before{
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform 0.5s;
+}
+.container .box h2{
+	position: absolute;
+	left: 40px;
+	top: 60px;
+	font-size: 4em;
+	font-weight: 800;
+	z-index: 1;
+	opacity: 0.1;
+	transition: 0.5s;
+}
+.container .box:hover h2{
+	opacity: 1;
+	color: #fff;
+	transform: translateY(-40px);
+}
+.container .box h3{
+	position: relative;
+	font-size: 1.5em;
+	z-index: 2;
+	color: #333;
+	transition: 0.5s;
+}
+.container .box p{
+	position: relative;
+	z-index: 2;
+	color: #555;
+	transition: 0.5s;
+}
+.container .box:hover h3,
+.container .box:hover p{
+	color: #fff;
+}
+
+#head_back{
+    position: fixed; 
+    left:50px;
+	top:50px;
+	color:#2196f3;
+	font-size:32px;
+	text-align:center;
+}
+#head_back a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#head_back a:link {color: #2196f3;}/* 未访问的链接 */
+#head_back a:visited {color: #2196f3}/* 已访问的链接 */
+#head_back a:hover {color: #2196f3} /* 鼠标移动到链接上 */
+#head_back a:active {color: #2196f3} /* 选定的链接 */
+
+#head{
+    position:fixed; 
+	top:50px;
+	color:#2196f3;
+	font-size:32px;
+	text-align:center;
+}
+#head a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#head a:link {color: #2196f3;}/* 未访问的链接 */
+#head a:visited {color: #2196f3}/* 已访问的链接 */
+#head a:hover {color: #2196f3} /* 鼠标移动到链接上 */
+#head a:active {color: #2196f3} /* 选定的链接 */
+
+#page-bottom{
+    margin: 0;
+    padding: 40 100 20 100;
+    color:#FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed; bottom: 0;
+    text-align:center;
+}
+
+#page-bottom a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#page-bottom a:link {color: #fff;}/* 未访问的链接 */
+#page-bottom a:visited {color: #fff}/* 已访问的链接 */
+#page-bottom a:hover {color: #D3D3D3} /* 鼠标移动到链接上 */
+#page-bottom a:active {color: #D3D3D3} /* 选定的链接 */
+
+#container a {text-decoration: none;font-weight:lighter;}/* 文字链接取消下划线 */
+#container a:link {color: #a9a9a9}/* 未访问的链接 */
+#container a:visited {color: #a9a9a9}/* 已访问的链接 */
+#container a:hover {color: #fff} /* 鼠标移动到链接上 */
+#container a:active {color: #fff} /* 选定的链接 */
