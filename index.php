@@ -12,7 +12,7 @@ A { text-decoration: none}
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?8d4faa9515320a7006eb30343ad1165e";
+  hm.src = "这里是百度统计的url";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
@@ -45,7 +45,7 @@ var _hmt = _hmt || [];
 			<a href="E.php"><h2>E</h2></a>
 		</div>
 	    <div class="card">
-			<a href="https://afdian.net/@WaterMonster" target="_blank"><h2>捐</h2></a>
+			<a href="这里是捐助链接" target="_blank"><h2>捐</h2></a>
 		</div>
 	</div>
 	
@@ -61,7 +61,7 @@ var _hmt = _hmt || [];
 	</div>
 
 <script src="/js/somee.js"> </script>
-			<br><br><br><br><span style="width:100%;text-align:center;display:inline-block;"><a href="http://www.beian.miit.gov.cn">蜀ICP备20009952号</a></span>
+			<br><br><br><br><span style="width:100%;text-align:center;display:inline-block;"><a href="http://www.beian.miit.gov.cn">这里是备案号</a></span>
 		</div>
 </body>
 </html>
