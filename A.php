@@ -5,13 +5,14 @@
 	<link rel="shortcut icon" href="icon.png" />
 	<link rel="bookmark" href="icon.png" />
 	<script language="javascript" src="jquery.js"></script>
-<!--	<link rel="stylesheet" href="common.css" type="text/css" /> -->
-    <link rel="stylesheet" href="/css/style.css">
+   	<link rel="stylesheet" href="/css/style.css">
+	
+<!--统计链接，可以删除-->
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "";#统计链接，可以删除
+  hm.src = "";    
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
