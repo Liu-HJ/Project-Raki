@@ -33,16 +33,7 @@ var _hmt = _hmt || [];
 	
 	<div class="container">
 		<div class="card">
-			<a href="A.php"><h2>A</h2></a>
-		</div>
-		<div class="card">
-			<a href="BC.php"><h2>BC</h2></a>
-		</div>
-		<div class="card">
-			<a href="D.php"><h2>D</h2></a>
-		</div>
-		<div class="card">
-			<a href="E.php"><h2>E</h2></a>
+			<a href="A.php"><h2>二</h2></a>
 		</div>
 	    <div class="card">
 			<a href="这里是捐助链接" target="_blank"><h2>捐</h2></a>
@@ -53,11 +44,11 @@ var _hmt = _hmt || [];
 		<div id="page-bottom">
 		<div class="btn">
 		<div class="btn-back">
-			<p><H2>建议使用电脑访问<br>投稿请联系水怪<br>喜欢的话可以捐助我喔<br></H2></p>
+			<p><H2>LINE1<br>LINE2<br>LINE3<br></H2></p>
 			<button class="yes"><H2>OK</H3></button>
 			<!--<button class="no">No</button> -->
 		</div>
-		<div class="btn-front"><h2>使 用 说 明</h2></div>
+		<div class="btn-front"><h2>BUTTON</h2></div>
 	</div>
 
 <script src="/js/somee.js"> </script>
