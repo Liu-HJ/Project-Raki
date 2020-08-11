@@ -6,11 +6,13 @@
 	<link rel="bookmark" href="icon.png" />
 	<script language="javascript" src="jquery.js"></script>
 	<link rel="stylesheet" href="/css/index.css" type="text/css" />
-	<script>
+	
+<!--统计链接，可以删除-->
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?8d4faa9515320a7006eb30343ad1165e";
+  hm.src = "";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
@@ -23,7 +25,7 @@ var _hmt = _hmt || [];
 		    </div>
 		</div>
 		<div id="page-bottom">
-			<br><br><br><br><span style="width:100%;text-align:center;display:inline-block;"><a href="http://www.beian.miit.gov.cn">蜀ICP备20009952号</a></span>
+			<br><br><br><br><span style="width:100%;text-align:center;display:inline-block;"><a href="http://www.beian.miit.gov.cn">在这里输入备案号</a></span>
 		</div>
 </body>
 </html>
