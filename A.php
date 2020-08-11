@@ -49,7 +49,6 @@ var _hmt = _hmt || [];
 		</div>
 	
 	</div>
-	
 </div>
 
 		<div id="page-bottom">
