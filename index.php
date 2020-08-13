@@ -2,6 +2,19 @@
 <head>
   <meta charset="utf-8">
   <style type="text/css"> 
+	<script>
+    function loadCSS() {
+        if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+            document.write('<link href="/css/mobile_index.css" rel="stylesheet" type="text/css" media="screen" />');
+        }
+        else {
+            document.write('<link href="/css/index.css" rel="stylesheet" type="text/css" media="screen" />');
+        }
+    }
+    loadCSS();
+</script>
+
+    <link rel="stylesheet" href="/css/button_index.css">
 <!-- 
 A { text-decoration: none} 
 --> 
@@ -20,8 +33,6 @@ var _hmt = _hmt || [];
 	<link rel="bookmark" href="icon.png" />
   <title>Prject Raki</title>
   <!-- Link CSS -->
-  <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/button_index.css">
 </head>
 <body>
     <div id="head" class="head-div">
